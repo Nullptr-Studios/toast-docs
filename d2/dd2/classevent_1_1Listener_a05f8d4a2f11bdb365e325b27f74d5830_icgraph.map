@@ -1,0 +1,5 @@
+<map id="event::Listener::Unsubscribe" name="event::Listener::Unsubscribe">
+<area shape="rect" id="Node000001" title="Unsubscribes all callbacks from the event." alt="" coords="254,5,454,35"/>
+<area shape="rect" id="Node000002" href="$d2/dd2/classevent_1_1Listener.html#a5b55b0cbe259b39775dd3763258a13b8" title="Unsubscribes an specific callback from the event." alt="" coords="5,5,206,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,23,206,23,206,18,238,18"/>
+</map>

@@ -1,0 +1,49 @@
+<map id="src/Toast.h" name="src/Toast.h">
+<area shape="rect" id="Node000001" title="File that contains all needed includes for the engine." alt="" coords="462,5,549,35"/>
+<area shape="rect" id="Node000002" href="$d3/d48/Engine_8hpp.html" title="Main engine class." alt="" coords="360,83,488,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,38,452,74,449,70,488,34"/>
+<area shape="rect" id="Node000021" href="$db/d3e/Entrypoint_8hpp.html" title="Contains logic for switching the entrypoint based on the OS." alt="" coords="512,83,664,113"/>
+<area shape="poly" id="edge26_Node000001_Node000021" title=" " alt="" coords="523,34,563,71,560,74,519,38"/>
+<area shape="rect" id="Node000003" href="$d6/dd7/Core_8h.html" title="File that contains all needed includes for ToastCore module." alt="" coords="257,161,319,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,116,328,155,325,151,397,111"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="343,161,417,190"/>
+<area shape="poly" id="edge23_Node000002_Node000018" title=" " alt="" coords="418,115,398,149,394,146,414,112"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="441,161,498,190"/>
+<area shape="poly" id="edge24_Node000002_Node000019" title=" " alt="" coords="435,112,455,146,451,149,430,115"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="523,161,584,190"/>
+<area shape="poly" id="edge25_Node000002_Node000020" title=" " alt="" coords="450,111,518,150,515,155,447,116"/>
+<area shape="rect" id="Node000004" href="$d7/d38/Core_8hpp.html" title=" " alt="" coords="5,471,118,501"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,182,201,189,134,201,74,218,52,228,38,240,24,265,16,293,14,323,17,353,31,410,50,456,45,458,26,412,11,354,9,323,11,292,19,263,34,237,49,224,72,213,133,196,200,184,256,177"/>
+<area shape="rect" id="Node000005" href="$df/d7d/Event_8hpp.html" title="Base Event class." alt="" coords="360,238,518,268"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="318,189,398,229,396,233,315,193"/>
+<area shape="rect" id="Node000006" href="$d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="560,394,646,423"/>
+<area shape="poly" id="edge22_Node000003_Node000006" title=" " alt="" coords="321,185,331,188,389,198,437,200,481,208,505,219,531,236,560,268,581,306,594,344,601,378,596,379,589,346,576,308,556,271,528,240,503,223,480,213,436,205,388,203,330,193,319,190"/>
+<area shape="rect" id="Node000008" href="$d8/d9e/Listener_8hpp.html" title="Code that contains the listener of the Event System." alt="" coords="214,316,312,346"/>
+<area shape="poly" id="edge21_Node000003_Node000008" title=" " alt="" coords="288,191,270,301,265,300,283,190"/>
+<area shape="rect" id="Node000016" href="$de/d2f/EventSystem_8hpp.html" title="Object responsible for handling the queue of events." alt="" coords="48,238,251,268"/>
+<area shape="poly" id="edge18_Node000003_Node000016" title=" " alt="" coords="263,193,190,233,187,228,261,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="470,266,505,287,541,314,569,347,590,379,586,382,565,350,537,318,502,291,467,271"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="407,271,311,312,309,307,405,266"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="488,394,536,423"/>
+<area shape="poly" id="edge15_Node000005_Node000011" title=" " alt="" coords="469,266,496,286,519,315,526,347,523,379,517,378,520,348,514,317,493,290,466,271"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="335,316,398,346"/>
+<area shape="poly" id="edge16_Node000005_Node000014" title=" " alt="" coords="427,270,393,307,389,303,423,267"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="422,316,504,346"/>
+<area shape="poly" id="edge17_Node000005_Node000015" title=" " alt="" coords="446,268,456,300,451,302,441,269"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="560,424,549,426,322,460,133,481,133,476,321,455,548,421,559,418"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="543,471,663,501"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="606,424,606,456,600,456,600,424"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="313,341,323,343,546,390,545,396,322,348,311,346"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="421,394,464,423"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="298,344,408,390,406,395,296,349"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="99,394,181,423"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="241,349,177,388,174,383,238,344"/>
+<area shape="poly" id="edge12_Node000008_Node000011" title=" " alt="" coords="313,343,474,390,472,395,311,348"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="205,394,291,423"/>
+<area shape="poly" id="edge13_Node000008_Node000012" title=" " alt="" coords="263,347,256,379,251,378,257,346"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="315,394,397,423"/>
+<area shape="poly" id="edge14_Node000008_Node000013" title=" " alt="" coords="282,344,328,381,325,386,279,348"/>
+<area shape="poly" id="edge19_Node000016_Node000004" title=" " alt="" coords="140,270,124,291,109,317,83,391,69,456,64,455,78,390,104,315,120,289,136,267"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="119,316,180,346"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="152,269,152,300,147,300,147,269"/>
+</map>

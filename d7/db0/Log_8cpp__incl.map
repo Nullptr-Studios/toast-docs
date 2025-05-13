@@ -1,0 +1,19 @@
+<map id="src/Core/Log.cpp" name="src/Core/Log.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="404,5,530,35"/>
+<area shape="rect" id="Node000002" href="$d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="70,92,142,122"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,32,288,52,221,67,156,86,148,89,146,83,154,80,220,62,287,47,403,27"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="166,92,280,122"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="427,38,279,90,277,85,425,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="304,92,462,122"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="455,37,409,84,405,80,451,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="486,83,619,132"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="483,34,520,70,516,74,479,37"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="643,83,785,132"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="509,33,631,75,630,80,508,38"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="809,92,880,122"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="531,26,656,45,727,61,797,80,806,84,804,89,796,86,726,66,655,50,531,31"/>
+<area shape="rect" id="Node000003" href="$d7/d38/Core_8hpp.html" title=" " alt="" coords="5,180,84,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,124,66,169,61,166,94,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="108,180,229,209"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="118,121,152,166,147,169,114,124"/>
+</map>
