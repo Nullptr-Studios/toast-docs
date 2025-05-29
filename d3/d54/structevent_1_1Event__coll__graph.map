@@ -1,5 +1,5 @@
 <map id="event::Event&lt; EventType &gt;" name="event::Event&lt; EventType &gt;">
-<area shape="rect" id="Node000001" title="Base class for all the Events." alt="" coords="5,156,181,234"/>
-<area shape="rect" id="Node000002" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="46,5,140,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,123,96,156,90,156,90,123"/>
+<area shape="rect" id="Node000001" title="Base class for all the Events." alt="" coords="5,83,192,113"/>
+<area shape="rect" id="Node000002" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="46,5,151,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,51,101,82,96,82,96,51"/>
 </map>

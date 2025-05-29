@@ -1,0 +1,38 @@
+<map id="src/HID/include/HID/Window.h" name="src/HID/include/HID/Window.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="368,5,515,54"/>
+<area shape="rect" id="Node000002" href="$d0/de3/Window_8hpp.html" title="Contains the main window class, the window exceptions and the window properties." alt="" coords="465,102,589,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="467,53,504,89,500,93,463,56"/>
+<area shape="rect" id="Node000016" href="$de/d4f/WindowEvents_8hpp.html" title="Stores all the different events a function has." alt="" coords="275,102,440,132"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="420,56,384,93,380,89,416,53"/>
+<area shape="rect" id="Node000003" href="$d6/d8d/Event_8h.html" title=" " alt="" coords="306,180,409,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,135,404,175,402,171,494,130"/>
+<area shape="rect" id="Node000006" href="$d5/d8f/Export_8h.html" title=" " alt="" coords="390,568,498,598"/>
+<area shape="poly" id="edge18_Node000002_Node000006" title=" " alt="" coords="531,132,537,192,540,271,540,429,534,467,517,503,495,534,473,559,469,555,491,531,512,500,528,466,535,429,535,271,531,192,526,132"/>
+<area shape="rect" id="Node000004" href="$df/d7d/Event_8hpp.html" title="Base Event class." alt="" coords="158,257,309,287"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="336,212,271,251,268,247,333,208"/>
+<area shape="rect" id="Node000005" href="$d8/d9e/Listener_8hpp.html" title="Code that contains the listener of the Event System." alt="" coords="184,335,281,365"/>
+<area shape="poly" id="edge17_Node000003_Node000005" title=" " alt="" coords="357,210,345,247,322,289,300,311,275,329,272,324,296,307,318,285,340,245,352,209"/>
+<area shape="rect" id="Node000015" href="$de/d2f/EventSystem_8hpp.html" title="Object responsible for handling the queue of events." alt="" coords="305,335,500,365"/>
+<area shape="poly" id="edge15_Node000003_Node000015" title=" " alt="" coords="364,209,397,319,392,320,359,211"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,288,235,319,230,319,231,288"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="282,362,348,384,376,397,395,411,419,445,433,483,442,520,446,553,440,553,437,521,428,484,414,447,392,415,374,402,346,389,280,367"/>
+<area shape="rect" id="Node000007" href="$d1/d45/Log_8h.html" title=" " alt="" coords="7,413,97,442"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="199,368,101,409,99,404,197,363"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="121,413,164,442"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="217,367,173,405,169,400,214,363"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="189,413,275,442"/>
+<area shape="poly" id="edge13_Node000005_Node000013" title=" " alt="" coords="235,365,235,397,230,397,230,365"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="299,413,381,442"/>
+<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="254,363,309,401,306,406,251,367"/>
+<area shape="rect" id="Node000008" href="$d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="84,490,183,520"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="69,441,109,477,105,481,66,445"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="184,516,376,562,374,567,182,521"/>
+<area shape="rect" id="Node000009" href="$df/d69/Profiler_8h.html" title=" " alt="" coords="150,568,261,598"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="149,519,184,555,180,559,145,522"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="5,568,126,598"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="123,522,90,558,86,555,119,519"/>
+<area shape="rect" id="Node000010" href="$dc/dbc/Profiler_8hpp.html" title="Wrapper of the Tracy Profiler." alt="" coords="146,646,265,675"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="208,598,208,630,203,630,203,598"/>
+<area shape="poly" id="edge16_Node000015_Node000006" title=" " alt="" coords="415,364,429,385,440,412,448,449,451,488,450,553,444,552,446,488,442,450,435,413,424,388,411,366"/>
+<area shape="poly" id="edge20_Node000016_Node000003" title=" " alt="" coords="360,132,360,164,355,164,355,132"/>
+</map>

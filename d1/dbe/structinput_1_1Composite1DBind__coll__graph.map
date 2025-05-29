@@ -1,0 +1,5 @@
+<map id="input::Composite1DBind" name="input::Composite1DBind">
+<area shape="rect" id="Node000001" title="Creates a virtual 1D axis from two buttons." alt="" coords="5,83,179,113"/>
+<area shape="rect" id="Node000002" href="$dd/d43/structinput_1_1Bind.html" title="Represents a button." alt="" coords="47,5,137,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,51,95,82,89,82,89,51"/>
+</map>

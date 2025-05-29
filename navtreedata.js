@@ -25,13 +25,17 @@
 var NAVTREE =
 [
   [ "Toast Engine", "index.html", [
+    [ "Clang Conventions", "d3/d23/conventions.html", "d3/d23/conventions" ],
+    [ "File Formats", "d7/da1/files.html", "d7/da1/files" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -39,7 +43,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
@@ -53,6 +57,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -61,7 +66,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"d5/da7/modernize.html#autotoc_md67",
+"da/d9c/structinput_1_1Action.html#ad98187a6f268a54ba2d18cf94557d86da831a8aca08db04716fb14339b3f32b45",
+"df/d3f/structevent_1_1WindowResize.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

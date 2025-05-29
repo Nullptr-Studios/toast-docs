@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Toast Engine: src/Core.h File Reference</title>
+<title>Toast Engine: src/Core/include/Core/Core.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,65 +102,66 @@ $(function(){initNavTree('d6/dd7/Core_8h.html','../../'); initResizable(true); }
   <div class="headertitle"><div class="title">Core.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>File that contains all needed includes for ToastCore module.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d38/Core_8hpp_source.html">Core/Core.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d7d/Event_8hpp_source.html">Core/Event/Event.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d2f/EventSystem_8hpp_source.html">Core/Event/EventSystem.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d9e/Listener_8hpp_source.html">Core/Event/Listener.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d82/Log_8hpp_source.html">Core/Log.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d8d/Event_8h_source.html">Event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d8f/Export_8h_source.html">Export.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/db7/File_8h_source.html">File.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d45/Log_8h_source.html">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d69/Profiler_8h_source.html">Profiler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d33/Time_8h_source.html">Time.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Core.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d12/Core_8h__incl.png" border="0" usemap="#asrc_2Core_8h" alt=""/></div>
-<map name="asrc_2Core_8h" id="asrc_2Core_8h">
-<area shape="rect" title="File that contains all needed includes for ToastCore module." alt="" coords="246,5,330,35"/>
-<area shape="rect" href="../../d7/d38/Core_8hpp.html" title=" " alt="" coords="5,316,118,346"/>
-<area shape="poly" title=" " alt="" coords="246,28,190,36,127,47,72,64,51,74,38,85,24,110,16,138,14,167,17,198,31,255,50,301,45,303,26,257,11,198,9,168,11,137,19,108,34,81,48,69,70,59,126,42,189,30,245,23"/>
-<area shape="rect" href="../../df/d7d/Event_8hpp.html" title="Base Event class." alt="" coords="360,83,518,113"/>
-<area shape="poly" title=" " alt="" coords="318,33,398,73,396,78,315,38"/>
-<area shape="rect" href="../../d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="560,238,646,268"/>
-<area shape="poly" title=" " alt="" coords="331,19,376,24,429,34,482,52,531,81,560,113,580,151,594,189,601,222,596,224,589,191,576,153,556,116,528,85,480,57,427,39,375,29,330,25"/>
-<area shape="rect" href="../../d8/d9e/Listener_8hpp.html" title="Code that contains the listener of the Event System." alt="" coords="214,161,312,190"/>
-<area shape="poly" title=" " alt="" coords="288,36,270,146,265,145,283,35"/>
-<area shape="rect" href="../../de/d2f/EventSystem_8hpp.html" title="Object responsible for handling the queue of events." alt="" coords="48,83,251,113"/>
-<area shape="poly" title=" " alt="" coords="263,38,190,78,187,73,261,33"/>
-<area shape="poly" title=" " alt="" coords="470,111,505,132,541,159,569,191,590,224,586,227,565,194,537,163,502,136,467,116"/>
-<area shape="poly" title=" " alt="" coords="407,116,311,157,309,152,405,111"/>
-<area shape="rect" title=" " alt="" coords="488,238,536,268"/>
-<area shape="poly" title=" " alt="" coords="469,111,496,131,519,160,526,192,523,224,517,223,520,192,514,162,493,135,466,115"/>
-<area shape="rect" title=" " alt="" coords="335,161,398,190"/>
-<area shape="poly" title=" " alt="" coords="427,115,393,151,389,148,423,111"/>
-<area shape="rect" title=" " alt="" coords="422,161,504,190"/>
-<area shape="poly" title=" " alt="" coords="446,112,456,145,451,146,441,114"/>
-<area shape="poly" title=" " alt="" coords="560,268,549,271,322,305,133,326,133,320,321,300,548,265,559,263"/>
-<area shape="rect" title=" " alt="" coords="543,316,663,346"/>
-<area shape="poly" title=" " alt="" coords="606,269,606,300,600,300,600,269"/>
-<area shape="poly" title=" " alt="" coords="313,185,323,188,546,235,545,240,322,193,311,191"/>
-<area shape="rect" title=" " alt="" coords="421,238,464,268"/>
-<area shape="poly" title=" " alt="" coords="298,188,408,234,406,239,296,193"/>
-<area shape="rect" title=" " alt="" coords="99,238,181,268"/>
-<area shape="poly" title=" " alt="" coords="241,193,177,232,174,228,238,189"/>
-<area shape="poly" title=" " alt="" coords="313,187,474,235,472,240,311,192"/>
-<area shape="rect" title=" " alt="" coords="205,238,291,268"/>
-<area shape="poly" title=" " alt="" coords="263,191,256,223,251,222,257,190"/>
-<area shape="rect" title=" " alt="" coords="315,238,397,268"/>
-<area shape="poly" title=" " alt="" coords="282,189,328,226,325,230,279,193"/>
-<area shape="poly" title=" " alt="" coords="140,115,124,136,109,162,83,236,69,301,64,300,78,234,104,160,120,133,136,111"/>
-<area shape="rect" title=" " alt="" coords="119,161,180,190"/>
-<area shape="poly" title=" " alt="" coords="152,113,152,145,147,145,147,113"/>
+<div class="center"><img src="../../df/d12/Core_8h__incl.png" border="0" usemap="#asrc_2Core_2include_2Core_2Core_8h" alt=""/></div>
+<map name="asrc_2Core_2include_2Core_2Core_8h" id="asrc_2Core_2include_2Core_2Core_8h">
+<area shape="rect" title=" " alt="" coords="496,5,652,54"/>
+<area shape="rect" href="../../d6/d8d/Event_8h.html" title=" " alt="" coords="381,102,450,132"/>
+<area shape="poly" title=" " alt="" coords="531,57,456,97,454,92,529,52"/>
+<area shape="rect" href="../../d5/d8f/Export_8h.html" title=" " alt="" coords="400,490,508,520"/>
+<area shape="poly" title=" " alt="" coords="567,55,546,117,539,155,535,193,535,351,530,388,516,423,498,455,479,480,475,477,493,452,511,421,525,387,530,351,530,193,533,154,541,116,562,53"/>
+<area shape="rect" href="../../d1/d45/Log_8h.html" title=" " alt="" coords="570,335,660,365"/>
+<area shape="poly" title=" " alt="" coords="580,54,614,319,609,320,574,55"/>
+<area shape="rect" href="../../df/d69/Profiler_8h.html" title=" " alt="" coords="678,490,788,520"/>
+<area shape="poly" title=" " alt="" coords="613,52,644,77,675,110,699,149,706,170,709,193,709,351,715,418,727,475,722,476,710,419,703,351,703,193,701,172,694,151,671,113,641,81,609,57"/>
+<area shape="rect" href="../../d6/db7/File_8h.html" title=" " alt="" coords="754,102,808,132"/>
+<area shape="poly" title=" " alt="" coords="633,52,740,96,738,101,631,57"/>
+<area shape="rect" href="../../d2/d33/Time_8h.html" title=" " alt="" coords="158,102,222,132"/>
+<area shape="poly" title=" " alt="" coords="496,51,237,108,236,103,495,46"/>
+<area shape="rect" href="../../df/d7d/Event_8hpp.html" title="Base Event class." alt="" coords="283,180,433,209"/>
+<area shape="poly" title=" " alt="" coords="407,134,380,169,376,166,402,131"/>
+<area shape="rect" href="../../d8/d9e/Listener_8hpp.html" title="Code that contains the listener of the Event System." alt="" coords="375,257,472,287"/>
+<area shape="poly" title=" " alt="" coords="427,131,438,153,447,179,448,213,439,244,434,242,442,212,442,180,433,155,422,133"/>
+<area shape="rect" href="../../de/d2f/EventSystem_8hpp.html" title="Object responsible for handling the queue of events." alt="" coords="135,257,330,287"/>
+<area shape="poly" title=" " alt="" coords="382,128,326,147,298,162,273,181,253,211,241,243,236,241,248,209,269,178,295,157,324,142,380,123"/>
+<area shape="poly" title=" " alt="" coords="372,208,403,244,399,247,368,212"/>
+<area shape="poly" title=" " alt="" coords="436,286,449,308,459,334,465,372,467,410,462,475,456,475,462,410,460,373,454,336,444,310,431,289"/>
+<area shape="poly" title=" " alt="" coords="460,285,566,326,564,331,458,290"/>
+<area shape="rect" title=" " alt="" coords="402,335,445,365"/>
+<area shape="poly" title=" " alt="" coords="426,288,426,319,421,319,421,288"/>
+<area shape="rect" title=" " alt="" coords="186,335,272,365"/>
+<area shape="poly" title=" " alt="" coords="388,290,280,331,278,326,386,285"/>
+<area shape="rect" title=" " alt="" coords="296,335,378,365"/>
+<area shape="poly" title=" " alt="" coords="409,290,366,327,363,322,405,286"/>
+<area shape="rect" href="../../d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="570,413,668,442"/>
+<area shape="poly" title=" " alt="" coords="619,365,620,397,615,397,613,365"/>
+<area shape="poly" title=" " alt="" coords="589,445,500,486,497,481,587,441"/>
+<area shape="poly" title=" " alt="" coords="642,441,701,479,698,484,639,445"/>
+<area shape="rect" title=" " alt="" coords="532,490,653,520"/>
+<area shape="poly" title=" " alt="" coords="617,444,605,477,600,475,612,442"/>
+<area shape="rect" href="../../dc/dbc/Profiler_8hpp.html" title="Wrapper of the Tracy Profiler." alt="" coords="674,568,792,598"/>
+<area shape="poly" title=" " alt="" coords="735,521,735,552,730,552,730,521"/>
+<area shape="poly" title=" " alt="" coords="214,290,196,305,180,324,172,344,172,354,176,363,195,389,218,411,273,447,331,472,385,488,384,493,329,477,270,452,215,415,191,392,172,366,167,355,167,343,176,321,192,301,211,286"/>
+<area shape="rect" href="../../d7/d8a/File_8hpp.html" title="Handles opening text and binary files." alt="" coords="743,180,840,209"/>
+<area shape="poly" title=" " alt="" coords="785,132,790,164,785,165,780,133"/>
+<area shape="rect" href="../../d9/de7/Time_8hpp.html" title="Controls the time of the application." alt="" coords="5,413,111,442"/>
+<area shape="poly" title=" " alt="" coords="185,133,126,258,71,399,66,397,121,256,180,131"/>
+<area shape="poly" title=" " alt="" coords="111,436,385,488,384,493,110,441"/>
 </map>
 </div>
 </div>
 <p><a href="../../d6/dd7/Core_8h_source.html">Go to the source code of this file.</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>File that contains all needed includes for ToastCore module. </p>
-<p>Core defines of the engine.</p>
-<dl class="section author"><dt>Author</dt><dd>Xein </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>14/04/25</dd></dl>
-<dl class="section author"><dt>Author</dt><dd>Xein </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>15/03/25 </dd></dl>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Dante Harper </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>22/05/25 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="../../d6/dd7/Core_8h_source.html">Core.h</a>.</p>
 </div></div><!-- contents -->
@@ -168,8 +169,8 @@ Include dependency graph for Core.h:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d6/dd7/Core_8h.html">Core.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2f0e5642e47e7ed59fe0f0829eafb5f.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_0039b64f5da65158393005e34e643c7f.html">include</a></li><li class="navelem"><a class="el" href="../../dir_f44d4db475074a31462bea0c94ae53e3.html">Core</a></li><li class="navelem"><a class="el" href="../../d6/dd7/Core_8h.html">Core.h</a></li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

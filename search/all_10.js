@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unsubscribe_0',['Unsubscribe',['../d2/dd2/classevent_1_1Listener.html#a05f8d4a2f11bdb365e325b27f74d5830',1,'event::Listener::Unsubscribe()'],['../d2/dd2/classevent_1_1Listener.html#a5b55b0cbe259b39775dd3763258a13b8',1,'event::Listener::Unsubscribe(std::string name)']]]
+  ['qualified_20auto_20a_0',['&lt;a href=&quot;https://clang.llvm.org/extra/clang-tidy/checks/readability/qualified-auto.html&quot; &gt;readability-qualified-auto&lt;/a&gt;',['../d2/d4c/readability.html#autotoc_md102',1,'']]],
+  ['qualified_20auto_20html_20readability_20qualified_20auto_20a_1',['&lt;a href=&quot;https://clang.llvm.org/extra/clang-tidy/checks/readability/qualified-auto.html&quot; &gt;readability-qualified-auto&lt;/a&gt;',['../d2/d4c/readability.html#autotoc_md102',1,'']]]
 ];

@@ -1,0 +1,5 @@
+<map id="input::PhysicalBind" name="input::PhysicalBind">
+<area shape="rect" id="Node000001" title="Represents a physical button." alt="" coords="5,83,143,113"/>
+<area shape="rect" id="Node000002" href="$dd/d43/structinput_1_1Bind.html" title="Represents a button." alt="" coords="29,5,119,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,51,77,82,71,82,71,51"/>
+</map>

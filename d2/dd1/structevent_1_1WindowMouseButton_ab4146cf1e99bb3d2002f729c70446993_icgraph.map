@@ -1,0 +1,11 @@
+<map id="event::WindowMouseButton::WindowMouseButton" name="event::WindowMouseButton::WindowMouseButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="694,22,893,71"/>
+<area shape="rect" id="Node000002" href="$d2/dd1/structevent_1_1WindowMouseButton.html#a438c524f3ba130e14b2486d7612f8c47" title=" " alt="" coords="448,22,646,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="678,50,647,50,647,44,678,44"/>
+<area shape="rect" id="Node000003" href="$d8/d8e/classtoast_1_1Window.html#a8346305f067cb920f298191286be2ecc" title="Creates a window with a given size." alt="" coords="234,32,400,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,50,401,50,401,44,433,44"/>
+<area shape="rect" id="Node000004" href="$d8/d8e/classtoast_1_1Window.html#ae91c14f5782c242f07fbcb5de9e16506" title=" " alt="" coords="5,5,186,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,38,186,34,187,28,219,32"/>
+<area shape="rect" id="Node000005" href="$d8/d8e/classtoast_1_1Window.html#ad58c193a91fc22a8d2ea61e878794a3e" title=" " alt="" coords="12,59,179,88"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="219,61,179,66,179,61,218,56"/>
+</map>

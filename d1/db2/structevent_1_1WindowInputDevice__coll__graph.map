@@ -1,0 +1,10 @@
+<map id="event::WindowInputDevice" name="event::WindowInputDevice">
+<area shape="rect" id="Node000001" title="Event sent when user connects or disconnects a controller." alt="" coords="8,279,196,309"/>
+<area shape="rect" id="Node000002" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="5,181,199,230"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,245,105,278,99,278,99,245"/>
+<area shape="rect" id="Node000003" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="44,5,149,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,50,104,181,99,181,95,50"/>
+<area shape="rect" id="Node000004" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="118,84,304,114"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="132,42,192,82,189,86,129,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,127,129,182,125,178,184,123"/>
+</map>

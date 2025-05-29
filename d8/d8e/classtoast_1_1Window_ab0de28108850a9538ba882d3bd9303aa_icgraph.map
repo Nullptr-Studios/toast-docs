@@ -1,0 +1,5 @@
+<map id="toast::Window::GetTime" name="toast::Window::GetTime">
+<area shape="rect" id="Node000001" title="Gets the time passed since the window was created." alt="" coords="234,5,404,35"/>
+<area shape="rect" id="Node000002" href="$d8/d8e/classtoast_1_1Window.html#ae91c14f5782c242f07fbcb5de9e16506" title=" " alt="" coords="5,5,186,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,23,186,23,186,18,218,18"/>
+</map>

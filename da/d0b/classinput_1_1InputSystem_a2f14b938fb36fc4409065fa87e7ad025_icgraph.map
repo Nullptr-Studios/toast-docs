@@ -1,0 +1,28 @@
+<map id="input::InputSystem::MouseButton" name="input::InputSystem::MouseButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="803,159,943,207"/>
+<area shape="rect" id="Node000002" href="$da/d0b/classinput_1_1InputSystem.html#a772fcbe1d507fdd5256543b916c2786f" title=" " alt="" coords="614,159,755,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="787,186,755,186,755,180,787,180"/>
+<area shape="rect" id="Node000003" href="$da/d0b/classinput_1_1InputSystem.html#a0d25a908965359a7041829ab0e869794" title=" " alt="" coords="426,121,566,170"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="599,169,566,162,567,157,600,164"/>
+<area shape="rect" id="Node000006" href="$da/d0b/classinput_1_1InputSystem.html#a866227ebdc9fc6566750be76166797ae" title=" " alt="" coords="227,5,367,54"/>
+<area shape="poly" id="edge12_Node000002_Node000006" title=" " alt="" coords="636,152,565,112,462,74,367,47,368,42,464,69,567,107,638,148"/>
+<area shape="rect" id="Node000011" href="$da/d0b/classinput_1_1InputSystem.html#ab618e12a1636267c6388525b33a2e47b" title=" " alt="" coords="426,195,566,243"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="600,202,567,208,566,203,599,197"/>
+<area shape="rect" id="Node000012" href="$da/d0b/classinput_1_1InputSystem.html#ad37634f5c6e127f7f0e791f1bed3cad0" title=" " alt="" coords="426,292,566,341"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="638,219,533,294,530,290,635,214"/>
+<area shape="rect" id="Node000004" href="$dc/d73/namespaceinput.html#a9ad721851f2a2fee10c85addf9cc9c57" title=" " alt="" coords="226,78,368,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="410,125,355,110,356,105,411,120"/>
+<area shape="rect" id="Node000005" href="$dc/d73/namespaceinput.html#a84406087ed7ff4bf2bc872b6828dd3de" title=" " alt="" coords="234,131,360,160"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="410,148,360,148,360,143,410,143"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="449,115,377,68,356,57,358,52,379,63,452,110"/>
+<area shape="rect" id="Node000007" href="$dc/d73/namespaceinput.html#ab66fc0c2b0d8036aa222332b71adcf1b" title=" " alt="" coords="216,184,378,214"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="411,171,356,186,355,181,410,166"/>
+<area shape="rect" id="Node000008" href="$d4/da8/classinput_1_1PlayerController.html#abb967aaa38b8c13bca1ff8d6168061de" title="Bind a function to an Input Action." alt="" coords="216,237,378,286"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="434,181,428,185,404,207,380,228,360,239,357,235,376,223,400,203,424,181,431,176"/>
+<area shape="rect" id="Node000010" href="$d4/da8/classinput_1_1PlayerController.html#a3dc9e091a424684d53f08144afdee256" title=" " alt="" coords="216,311,378,359"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="431,182,428,185,417,199,411,213,405,241,399,270,392,284,380,300,365,312,361,308,376,296,387,282,394,268,400,240,406,212,413,197,424,181,427,178"/>
+<area shape="rect" id="Node000009" href="$d4/da8/classinput_1_1PlayerController.html#abfead4668c4fcf6d9d8f15e9db5aec6f" title=" " alt="" coords="5,237,168,286"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="200,264,168,264,168,259,200,259"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="120,225,107,218,86,216,67,218,55,223,50,229,51,237,46,237,45,227,52,218,66,213,87,211,109,213,123,220"/>
+<area shape="poly" id="edge14_Node000012_Node000012" title=" " alt="" coords="526,279,515,273,496,271,479,272,469,277,464,283,465,291,459,292,459,282,465,273,478,267,496,265,516,268,529,274"/>
+</map>

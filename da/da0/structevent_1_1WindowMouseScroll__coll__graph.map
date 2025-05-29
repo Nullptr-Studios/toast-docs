@@ -1,0 +1,10 @@
+<map id="event::WindowMouseScroll" name="event::WindowMouseScroll">
+<area shape="rect" id="Node000001" title="Event sent when user uses the scroll wheel." alt="" coords="12,279,200,309"/>
+<area shape="rect" id="Node000002" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="5,181,207,230"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,245,109,278,103,278,103,245"/>
+<area shape="rect" id="Node000003" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="48,5,153,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,50,108,181,103,181,99,50"/>
+<area shape="rect" id="Node000004" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="122,84,308,114"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="136,42,196,82,193,86,133,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,127,133,182,129,178,188,123"/>
+</map>

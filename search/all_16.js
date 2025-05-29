@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['warning_0',['Warning',['../d0/d77/classLog.html#a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1',1,'Log']]],
+  ['what_1',['what',['../d6/d05/classToastException.html#abc19be82a21b9df9e0a81adc6656a2fe',1,'ToastException::what()'],['../d0/d82/classinput_1_1NoLayoutFoundException.html#a64f06b051b79856f6136d9b20979dcb3',1,'input::NoLayoutFoundException::what()'],['../de/d5c/classinput_1_1LayoutException.html#a2236f559e8978cd98409ddddb69f6128',1,'input::LayoutException::what()'],['../d1/d6b/classinput_1_1ActionException.html#ac0ad7ba9bc805f451a94c5d2911af71b',1,'input::ActionException::what()'],['../de/db0/classtoast_1_1WindowException.html#a5da411fe277516819a3b634cae0ba0a9',1,'toast::WindowException::what()']]],
+  ['width_2',['width',['../dc/d26/structtoast_1_1WindowProps.html#aa9ddb9978e859d9c6b86170d9c593442',1,'toast::WindowProps::width'],['../df/d3f/structevent_1_1WindowResize.html#a06282480f7f499115603136a980782ee',1,'event::WindowResize::width']]],
+  ['win_5fargv_3',['win_argv',['../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec',1,'Windows.inl']]],
+  ['window_4',['Window',['../d8/d8e/classtoast_1_1Window.html',1,'toast::Window'],['../d8/d8e/classtoast_1_1Window.html#a8346305f067cb920f298191286be2ecc',1,'toast::Window::Window(unsigned width=800, unsigned height=600, const std::string &amp;name=&quot;Toast Engine&quot;)'],['../d8/d8e/classtoast_1_1Window.html#ad58c193a91fc22a8d2ea61e878794a3e',1,'toast::Window::Window(const Window &amp;)=delete']]],
+  ['window_2ecpp_5',['Window.cpp',['../d2/d84/Window_8cpp.html',1,'']]],
+  ['window_2edox_6',['Window.dox',['../d1/db5/Window_8dox.html',1,'']]],
+  ['window_2eh_7',['Window.h',['../d3/ded/Window_8h.html',1,'']]],
+  ['window_2ehpp_8',['Window.hpp',['../d0/de3/Window_8hpp.html',1,'']]],
+  ['windowchar_9',['WindowChar',['../db/db9/structevent_1_1WindowChar.html',1,'event::WindowChar'],['../db/db9/structevent_1_1WindowChar.html#a230b38ff2df0ceb9aea166d58e2bbab7',1,'event::WindowChar::WindowChar()']]],
+  ['windowclose_10',['WindowClose',['../db/d11/structevent_1_1WindowClose.html',1,'event']]],
+  ['windowdrop_11',['WindowDrop',['../d0/d30/structevent_1_1WindowDrop.html',1,'event::WindowDrop'],['../d0/d30/structevent_1_1WindowDrop.html#a95eb72ee1fec170c282d4753819dbaea',1,'event::WindowDrop::WindowDrop()']]],
+  ['windowevents_2ecpp_12',['WindowEvents.cpp',['../db/d69/WindowEvents_8cpp.html',1,'']]],
+  ['windowevents_2ehpp_13',['WindowEvents.hpp',['../de/d4f/WindowEvents_8hpp.html',1,'']]],
+  ['windowexception_14',['WindowException',['../de/db0/classtoast_1_1WindowException.html',1,'toast::WindowException'],['../de/db0/classtoast_1_1WindowException.html#af8523e52b6160f4fc0342fa2b085688b',1,'toast::WindowException::WindowException()']]],
+  ['windowinputdevice_15',['WindowInputDevice',['../df/d2c/structevent_1_1WindowInputDevice.html',1,'event::WindowInputDevice'],['../df/d2c/structevent_1_1WindowInputDevice.html#aab5a9988523db711c618f09e7d1236be',1,'event::WindowInputDevice::WindowInputDevice()']]],
+  ['windowkey_16',['WindowKey',['../d1/d90/structevent_1_1WindowKey.html',1,'event::WindowKey'],['../d1/d90/structevent_1_1WindowKey.html#aee3464140e5285ae31cf1d3849ca43e0',1,'event::WindowKey::WindowKey()']]],
+  ['windowmousebutton_17',['WindowMouseButton',['../d2/dd1/structevent_1_1WindowMouseButton.html',1,'event::WindowMouseButton'],['../d2/dd1/structevent_1_1WindowMouseButton.html#ab4146cf1e99bb3d2002f729c70446993',1,'event::WindowMouseButton::WindowMouseButton()']]],
+  ['windowmouseposition_18',['WindowMousePosition',['../de/d75/structevent_1_1WindowMousePosition.html',1,'event::WindowMousePosition'],['../de/d75/structevent_1_1WindowMousePosition.html#aa8e823f0c9ad81380367a4f18cd0c159',1,'event::WindowMousePosition::WindowMousePosition()']]],
+  ['windowmousescroll_19',['WindowMouseScroll',['../d4/d30/structevent_1_1WindowMouseScroll.html',1,'event::WindowMouseScroll'],['../d4/d30/structevent_1_1WindowMouseScroll.html#ad077f14ba19f0406ca70853c3c123e33',1,'event::WindowMouseScroll::WindowMouseScroll()']]],
+  ['windowprops_20',['WindowProps',['../dc/d26/structtoast_1_1WindowProps.html',1,'toast']]],
+  ['windowresize_21',['WindowResize',['../df/d3f/structevent_1_1WindowResize.html',1,'event::WindowResize'],['../df/d3f/structevent_1_1WindowResize.html#ab646014d214524bfdfd6818e8b65544b',1,'event::WindowResize::WindowResize()']]],
+  ['windows_2einl_22',['Windows.inl',['../d4/de2/Windows_8inl.html',1,'']]],
+  ['with_20void_20value_20a_23',['&lt;a href=&quot;https://clang.llvm.org/extra/clang-tidy/checks/readability/avoid-return-with-void-value.html&quot; &gt;readability-avoid-return-with-void-value&lt;/a&gt;',['../d2/d4c/readability.html#autotoc_md85',1,'']]],
+  ['with_20void_20value_20html_20readability_20avoid_20return_20with_20void_20value_20a_24',['&lt;a href=&quot;https://clang.llvm.org/extra/clang-tidy/checks/readability/avoid-return-with-void-value.html&quot; &gt;readability-avoid-return-with-void-value&lt;/a&gt;',['../d2/d4c/readability.html#autotoc_md85',1,'']]]
+];

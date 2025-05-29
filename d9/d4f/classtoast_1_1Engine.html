@@ -114,19 +114,11 @@ $(function(){initNavTree('d9/d4f/classtoast_1_1Engine.html','../../'); initResiz
 
 <p><code>#include &lt;<a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="../../d5/d80/classtest__application_1_1Application.html">test_application::Application</a>.</p>
-<div class="dynheader">
-Collaboration diagram for toast::Engine:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/df7/classtoast_1_1Engine__coll__graph.png" border="0" usemap="#atoast_1_1Engine_coll__map" alt="Collaboration graph"/></div>
-<map name="atoast_1_1Engine_coll__map" id="atoast_1_1Engine_coll__map">
-<area shape="rect" title="Main Bloom engine class." alt="" coords="5,5,128,230"/>
-</map>
-</div>
+<p>Inherited by <a class="el" href="../../d4/d04/classtest__app_1_1Application.html">test_app::Application</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae7f81d670cc27f32ce9fcc4bd3bab1d5" id="r_ae7f81d670cc27f32ce9fcc4bd3bab1d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f81d670cc27f32ce9fcc4bd3bab1d5">Run</a> (int argc, char **argv)</td></tr>
+<tr class="memitem:ae7f81d670cc27f32ce9fcc4bd3bab1d5" id="r_ae7f81d670cc27f32ce9fcc4bd3bab1d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f81d670cc27f32ce9fcc4bd3bab1d5">Run</a> (int <a class="el" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>, char **<a class="el" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>)</td></tr>
 <tr class="separator:ae7f81d670cc27f32ce9fcc4bd3bab1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -149,8 +141,14 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac5c41bb8f8177eee73002b5905332c10" id="r_ac5c41bb8f8177eee73002b5905332c10"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c41bb8f8177eee73002b5905332c10">m_arguments</a></td></tr>
 <tr class="memdesc:ac5c41bb8f8177eee73002b5905332c10"><td class="mdescLeft">&#160;</td><td class="mdescRight">This vector contains all the runtime arguments, very useful for tests or for some CLI tools.  <br /></td></tr>
 <tr class="separator:ac5c41bb8f8177eee73002b5905332c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c8471ac146f671de8da3d45028c3bb" id="r_ac0c8471ac146f671de8da3d45028c3bb"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classtoast_1_1Time.html">Time</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0c8471ac146f671de8da3d45028c3bb">m_time</a></td></tr>
+<tr class="separator:ac0c8471ac146f671de8da3d45028c3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd09070564d037804cb95bf7125f4f72" id="r_abd09070564d037804cb95bf7125f4f72"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../dd/d6f/classevent_1_1EventSystem.html">event::EventSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd09070564d037804cb95bf7125f4f72">m_eventSystem</a></td></tr>
 <tr class="separator:abd09070564d037804cb95bf7125f4f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a98af318c09bcb5f178603374f50bf0" id="r_a4a98af318c09bcb5f178603374f50bf0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d8/d8e/classtoast_1_1Window.html">Window</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a98af318c09bcb5f178603374f50bf0">m_window</a></td></tr>
+<tr class="separator:a4a98af318c09bcb5f178603374f50bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ecc8820e30b9a0d970a527d3967f6c2" id="r_a0ecc8820e30b9a0d970a527d3967f6c2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../da/d0b/classinput_1_1InputSystem.html">input::InputSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ecc8820e30b9a0d970a527d3967f6c2">m_inputSystem</a></td></tr>
+<tr class="separator:a0ecc8820e30b9a0d970a527d3967f6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -176,12 +174,12 @@ Private Member Functions</h2></td></tr>
 <div class="line">toast::Engine* <a class="code hl_function" href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a>() {</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">new</span> game::Application();</div>
 <div class="line">}</div>
-<div class="ttc" id="aToast_8h_html"><div class="ttname"><a href="../../d2/d1e/Toast_8h.html">Toast.h</a></div><div class="ttdoc">File that contains all needed includes for the engine.</div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00015">Engine.hpp:15</a></div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html_a162c8de172f29ea8fa3e83b2e969ab2a"><div class="ttname"><a href="#a162c8de172f29ea8fa3e83b2e969ab2a">toast::Engine::Begin</a></div><div class="ttdeci">virtual void Begin()</div><div class="ttdoc">Called on initialization.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00029">Engine.hpp:29</a></div></div>
-<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d3c/Application_8hpp_source.html#l00013">Application.hpp:13</a></div></div>
+<div class="ttc" id="aToast_8h_html"><div class="ttname"><a href="../../d2/d1e/Toast_8h.html">Toast.h</a></div></div>
+<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00013">Engine.hpp:13</a></div></div>
+<div class="ttc" id="aclasstoast_1_1Engine_html_a162c8de172f29ea8fa3e83b2e969ab2a"><div class="ttname"><a href="#a162c8de172f29ea8fa3e83b2e969ab2a">toast::Engine::Begin</a></div><div class="ttdeci">virtual void Begin()</div><div class="ttdoc">Called on initialization.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00028">Engine.hpp:28</a></div></div>
+<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d5e/App_8hpp_source.html#l00014">App.hpp:14</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00013">13</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a162c8de172f29ea8fa3e83b2e969ab2a" name="a162c8de172f29ea8fa3e83b2e969ab2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a162c8de172f29ea8fa3e83b2e969ab2a">&#9670;&#160;</a></span>Begin()</h2>
@@ -208,21 +206,17 @@ Private Member Functions</h2></td></tr>
 
 <p>Called on initialization. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_a162c8de172f29ea8fa3e83b2e969ab2a_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_a162c8de172f29ea8fa3e83b2e969ab2a_icgraph" alt=""/></div>
 <map name="ad9/d4f/classtoast_1_1Engine_a162c8de172f29ea8fa3e83b2e969ab2a_icgraph" id="ad9/d4f/classtoast_1_1Engine_a162c8de172f29ea8fa3e83b2e969ab2a_icgraph">
-<area shape="rect" title="Called on initialization." alt="" coords="489,32,636,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#a0c34e7e61832e0e38f2708a737684607" title=" " alt="" coords="310,32,441,62"/>
-<area shape="poly" title=" " alt="" coords="474,50,442,50,442,44,474,44"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="294,50,262,50,262,44,294,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title="Called on initialization." alt="" coords="367,5,513,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#a0c34e7e61832e0e38f2708a737684607" title=" " alt="" coords="188,5,319,35"/>
+<area shape="poly" title=" " alt="" coords="351,23,320,23,320,18,351,18"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -253,19 +247,15 @@ Here is the caller graph for this function:</div>
 
 <p>Called when the engine is closing. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_ac251fca8ab6fb96b256b262c1c97e828_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_ac251fca8ab6fb96b256b262c1c97e828_icgraph" alt=""/></div>
 <map name="ad9/d4f/classtoast_1_1Engine_ac251fca8ab6fb96b256b262c1c97e828_icgraph" id="ad9/d4f/classtoast_1_1Engine_ac251fca8ab6fb96b256b262c1c97e828_icgraph">
-<area shape="rect" title="Called when the engine is closing." alt="" coords="310,32,453,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="294,50,262,50,262,44,294,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title="Called when the engine is closing." alt="" coords="188,5,331,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -296,19 +286,15 @@ Here is the caller graph for this function:</div>
 <p>This function is used for initializing the engine. It is called before the game loop starts.</p>
 <p>It is a private function that should not be called directly. It is called by the Run function. Adding functionality on the init is done on the begin function. It is separated like this because you will want to add functionality in between parts of the Init function, not directly at the end. For that, the Begin funciton is provided. It will be called during the engine initialization. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_a0c34e7e61832e0e38f2708a737684607_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_a0c34e7e61832e0e38f2708a737684607_icgraph" alt=""/></div>
 <map name="ad9/d4f/classtoast_1_1Engine_a0c34e7e61832e0e38f2708a737684607_icgraph" id="ad9/d4f/classtoast_1_1Engine_a0c34e7e61832e0e38f2708a737684607_icgraph">
-<area shape="rect" title=" " alt="" coords="310,32,441,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="294,50,262,50,262,44,294,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title=" " alt="" coords="188,5,319,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -339,19 +325,15 @@ Here is the caller graph for this function:</div>
 
 <p>Called every frame for rendering. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_aaea93216f712d6cbad3ea63596660a83_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_aaea93216f712d6cbad3ea63596660a83_icgraph" alt=""/></div>
 <map name="ad9/d4f/classtoast_1_1Engine_aaea93216f712d6cbad3ea63596660a83_icgraph" id="ad9/d4f/classtoast_1_1Engine_aaea93216f712d6cbad3ea63596660a83_icgraph">
-<area shape="rect" title="Called every frame for rendering." alt="" coords="310,32,466,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="295,50,262,50,262,44,295,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title="Called every frame for rendering." alt="" coords="188,5,344,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -377,19 +359,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Call this to start the engine on the main function </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00007">7</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_ae7f81d670cc27f32ce9fcc4bd3bab1d5_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_ae7f81d670cc27f32ce9fcc4bd3bab1d5_icgraph" alt=""/></div>
-<map name="ad9/d4f/classtoast_1_1Engine_ae7f81d670cc27f32ce9fcc4bd3bab1d5_icgraph" id="ad9/d4f/classtoast_1_1Engine_ae7f81d670cc27f32ce9fcc4bd3bab1d5_icgraph">
-<area shape="rect" title=" " alt="" coords="128,32,262,62"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
 
 </div>
 </div>
@@ -418,19 +388,15 @@ Here is the caller graph for this function:</div>
 
 <p>Called every frame for game logic update. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d0c/Engine_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d6/d0c/Engine_8cpp_source.html">Engine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d4f/classtoast_1_1Engine_a86ba6fa2f6acb3859d7f92540f9756a0_icgraph.png" border="0" usemap="#ad9/d4f/classtoast_1_1Engine_a86ba6fa2f6acb3859d7f92540f9756a0_icgraph" alt=""/></div>
 <map name="ad9/d4f/classtoast_1_1Engine_a86ba6fa2f6acb3859d7f92540f9756a0_icgraph" id="ad9/d4f/classtoast_1_1Engine_a86ba6fa2f6acb3859d7f92540f9756a0_icgraph">
-<area shape="rect" title="Called every frame for game logic update." alt="" coords="310,32,443,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="295,50,262,50,262,44,295,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title="Called every frame for game logic update." alt="" coords="188,5,321,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -459,7 +425,7 @@ Here is the caller graph for this function:</div>
 
 <p>This vector contains all the runtime arguments, very useful for tests or for some CLI tools. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +449,79 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0ecc8820e30b9a0d970a527d3967f6c2" name="a0ecc8820e30b9a0d970a527d3967f6c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ecc8820e30b9a0d970a527d3967f6c2">&#9670;&#160;</a></span>m_inputSystem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../da/d0b/classinput_1_1InputSystem.html">input::InputSystem</a>&gt; toast::Engine::m_inputSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac0c8471ac146f671de8da3d45028c3bb" name="ac0c8471ac146f671de8da3d45028c3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c8471ac146f671de8da3d45028c3bb">&#9670;&#160;</a></span>m_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../dc/d1c/classtoast_1_1Time.html">Time</a>&gt; toast::Engine::m_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4a98af318c09bcb5f178603374f50bf0" name="a4a98af318c09bcb5f178603374f50bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a98af318c09bcb5f178603374f50bf0">&#9670;&#160;</a></span>m_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../d8/d8e/classtoast_1_1Window.html">Window</a>&gt; toast::Engine::m_window</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d48/Engine_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +535,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d01/namespacetoast.html">toast</a></li><li class="navelem"><a class="el" href="../../d9/d4f/classtoast_1_1Engine.html">Engine</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

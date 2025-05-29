@@ -112,14 +112,6 @@ $(function(){initNavTree('d0/d77/classLog.html','../../'); initResizable(true); 
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for Log:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/db1/classLog__coll__graph.png" border="0" usemap="#aLog_coll__map" alt="Collaboration graph"/></div>
-<map name="aLog_coll__map" id="aLog_coll__map">
-<area shape="rect" title="This class is in charged of managing the logs in the console and file." alt="" coords="5,5,135,181"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -196,19 +188,19 @@ How to Log</h2>
 <div class="line">vk::Result result = vk::CreateSureface(&amp;m_vkDevice);</div>
 <div class="line"><span class="keywordflow">if</span> (result == vk.Success, <span class="stringliteral">&quot;Unable to create a Vulkan Surface&quot;</span>);</div>
 <div class="line"><span class="comment">// Note that for the assert to appear the condition MUST NOT BE ACCOMPLISHED</span></div>
-<div class="ttc" id="aLog_8hpp_html_a07b069f01dd4771807616165f2434d41"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#a07b069f01dd4771807616165f2434d41">TOAST_TRACE</a></div><div class="ttdeci">#define TOAST_TRACE(...)</div><div class="ttdoc">Logs a trace (debug-level) message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00079">Log.hpp:79</a></div></div>
-<div class="ttc" id="aLog_8hpp_html_a1bfc17de13d61a40e960563b8bcc64d2"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#a1bfc17de13d61a40e960563b8bcc64d2">TOAST_WARN</a></div><div class="ttdeci">#define TOAST_WARN(...)</div><div class="ttdoc">Logs a warning message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00067">Log.hpp:67</a></div></div>
-<div class="ttc" id="aLog_8hpp_html_ae45adfee2e32da9a491f9e4114d21509"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#ae45adfee2e32da9a491f9e4114d21509">TOAST_INFO</a></div><div class="ttdeci">#define TOAST_INFO(...)</div><div class="ttdoc">Logs an informational message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00073">Log.hpp:73</a></div></div>
-<div class="ttc" id="aLog_8hpp_html_aeb6d2936af6818000825b1409a9a3290"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#aeb6d2936af6818000825b1409a9a3290">TOAST_ERROR</a></div><div class="ttdeci">#define TOAST_ERROR(...)</div><div class="ttdoc">Logs an error message from the engine logger and triggers a debug break.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00058">Log.hpp:58</a></div></div>
+<div class="ttc" id="aLog_8hpp_html_a07b069f01dd4771807616165f2434d41"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#a07b069f01dd4771807616165f2434d41">TOAST_TRACE</a></div><div class="ttdeci">#define TOAST_TRACE(...)</div><div class="ttdoc">Logs a trace (debug-level) message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00089">Log.hpp:89</a></div></div>
+<div class="ttc" id="aLog_8hpp_html_a1bfc17de13d61a40e960563b8bcc64d2"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#a1bfc17de13d61a40e960563b8bcc64d2">TOAST_WARN</a></div><div class="ttdeci">#define TOAST_WARN(...)</div><div class="ttdoc">Logs a warning message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00069">Log.hpp:69</a></div></div>
+<div class="ttc" id="aLog_8hpp_html_ae45adfee2e32da9a491f9e4114d21509"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#ae45adfee2e32da9a491f9e4114d21509">TOAST_INFO</a></div><div class="ttdeci">#define TOAST_INFO(...)</div><div class="ttdoc">Logs an informational message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00079">Log.hpp:79</a></div></div>
+<div class="ttc" id="aLog_8hpp_html_aeb6d2936af6818000825b1409a9a3290"><div class="ttname"><a href="../../d0/d82/Log_8hpp.html#aeb6d2936af6818000825b1409a9a3290">TOAST_ERROR</a></div><div class="ttdeci">#define TOAST_ERROR(...)</div><div class="ttdoc">Logs an error message from the engine logger.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00059">Log.hpp:59</a></div></div>
 </div><!-- fragment --><p>You can also change the severity level that will be logged into both the console and the file by just using the following function</p>
 <div class="fragment"><div class="line"><span class="comment">// This will set the Toast logger to only show warnings or greater (warning, error or critical)</span></div>
 <div class="line"><a class="code hl_function" href="#a301596c8759be45e90bec9ff82df9748">Log::ChangeLevel</a>(<a class="code hl_function" href="#a2804747c65fe282cf7adc093cc7bf318">GetEngine</a>(), <a class="code hl_enumvalue" href="#a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1">Log::Level::Warning</a>);</div>
-<div class="ttc" id="aclassLog_html_a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1"><div class="ttname"><a href="#a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1">Log::Warning</a></div><div class="ttdeci">@ Warning</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00018">Log.hpp:18</a></div></div>
-<div class="ttc" id="aclassLog_html_a2804747c65fe282cf7adc093cc7bf318"><div class="ttname"><a href="#a2804747c65fe282cf7adc093cc7bf318">Log::GetEngine</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetEngine()</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d88/Log_8cpp_source.html#l00037">Log.cpp:37</a></div></div>
-<div class="ttc" id="aclassLog_html_a301596c8759be45e90bec9ff82df9748"><div class="ttname"><a href="#a301596c8759be45e90bec9ff82df9748">Log::ChangeLevel</a></div><div class="ttdeci">static void ChangeLevel(std::shared_ptr&lt; spdlog::logger &gt; &amp;logger, Level level)</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d88/Log_8cpp_source.html#l00047">Log.cpp:47</a></div></div>
+<div class="ttc" id="aclassLog_html_a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1"><div class="ttname"><a href="#a00db7d9c1fd997749ee80fcf051b028eadde5984feecf55c501d01df7fd051cc1">Log::Warning</a></div><div class="ttdeci">@ Warning</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d82/Log_8hpp_source.html#l00019">Log.hpp:19</a></div></div>
+<div class="ttc" id="aclassLog_html_a2804747c65fe282cf7adc093cc7bf318"><div class="ttname"><a href="#a2804747c65fe282cf7adc093cc7bf318">Log::GetEngine</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetEngine()</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d88/Log_8cpp_source.html#l00036">Log.cpp:36</a></div></div>
+<div class="ttc" id="aclassLog_html_a301596c8759be45e90bec9ff82df9748"><div class="ttname"><a href="#a301596c8759be45e90bec9ff82df9748">Log::ChangeLevel</a></div><div class="ttdeci">static void ChangeLevel(std::shared_ptr&lt; spdlog::logger &gt; &amp;logger, Level level)</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d88/Log_8cpp_source.html#l00046">Log.cpp:46</a></div></div>
 </div><!-- fragment --><p>To make sure the logging system works, just call <code><a class="el" href="#adc2470e1e4de07f81462116f6fdf60fd">Log::Init()</a></code> at the beginning of your program. This will set up the sinks needed for the system to work. If not called, an exception will be thrown when trying to log something. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00011">11</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00012">12</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a00db7d9c1fd997749ee80fcf051b028e" name="a00db7d9c1fd997749ee80fcf051b028e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00db7d9c1fd997749ee80fcf051b028e">&#9670;&#160;</a></span>Level</h2>
@@ -229,7 +221,7 @@ How to Log</h2>
 <tr><td class="fieldname"><a id="a00db7d9c1fd997749ee80fcf051b028ea6a75e60002fb7ed4635f1699171995d4" name="a00db7d9c1fd997749ee80fcf051b028ea6a75e60002fb7ed4635f1699171995d4"></a>Critical&#160;</td><td class="fieldinit">&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00016">16</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
 
 </div>
 </div>
@@ -268,7 +260,7 @@ How to Log</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
 
 </div>
 </div>
@@ -296,7 +288,7 @@ How to Log</h2>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A shared pointer to the client log console </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
 
 </div>
 </div>
@@ -324,7 +316,7 @@ How to Log</h2>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A shared pointer to the engine log console </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
 
 </div>
 </div>
@@ -351,21 +343,17 @@ How to Log</h2>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d88/Log_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../d4/d88/Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/d77/classLog_adc2470e1e4de07f81462116f6fdf60fd_icgraph.png" border="0" usemap="#ad0/d77/classLog_adc2470e1e4de07f81462116f6fdf60fd_icgraph" alt=""/></div>
 <map name="ad0/d77/classLog_adc2470e1e4de07f81462116f6fdf60fd_icgraph" id="ad0/d77/classLog_adc2470e1e4de07f81462116f6fdf60fd_icgraph">
-<area shape="rect" title=" " alt="" coords="489,32,563,62"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#a0c34e7e61832e0e38f2708a737684607" title=" " alt="" coords="310,32,441,62"/>
-<area shape="poly" title=" " alt="" coords="474,50,442,50,442,44,474,44"/>
-<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="128,32,262,62"/>
-<area shape="poly" title=" " alt="" coords="294,50,262,50,262,44,294,44"/>
-<area shape="rect" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="17,5,68,35"/>
-<area shape="poly" title=" " alt="" coords="112,35,68,27,69,22,113,30"/>
-<area shape="rect" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943" title=" " alt="" coords="5,59,80,88"/>
-<area shape="poly" title=" " alt="" coords="113,64,80,70,80,64,112,59"/>
+<area shape="rect" title=" " alt="" coords="367,5,440,35"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#a0c34e7e61832e0e38f2708a737684607" title=" " alt="" coords="188,5,319,35"/>
+<area shape="poly" title=" " alt="" coords="352,23,320,23,320,18,352,18"/>
+<area shape="rect" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5" title=" " alt="" coords="5,5,140,35"/>
+<area shape="poly" title=" " alt="" coords="172,23,140,23,140,18,172,18"/>
 </map>
 </div>
 
@@ -392,7 +380,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
 
 </div>
 </div>
@@ -416,7 +404,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d82/Log_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d0/d82/Log_8hpp_source.html">Log.hpp</a>.</p>
 
 </div>
 </div>
@@ -430,7 +418,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d77/classLog.html">Log</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

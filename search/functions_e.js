@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unsubscribe_0',['Unsubscribe',['../d2/dd2/classevent_1_1Listener.html#a05f8d4a2f11bdb365e325b27f74d5830',1,'event::Listener::Unsubscribe()'],['../d2/dd2/classevent_1_1Listener.html#a5b55b0cbe259b39775dd3763258a13b8',1,'event::Listener::Unsubscribe(std::string name)']]]
+  ['render_0',['Render',['../d9/d4f/classtoast_1_1Engine.html#aaea93216f712d6cbad3ea63596660a83',1,'toast::Engine']]],
+  ['run_1',['Run',['../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5',1,'toast::Engine::Run()'],['../d4/de2/Windows_8inl.html#a3f4302112b84836b9e105ec876c10663',1,'Run():&#160;Windows.inl']]]
 ];

@@ -1,7 +1,38 @@
 <map id="event::EventSystem::SendEvent" name="event::EventSystem::SendEvent">
-<area shape="rect" id="Node000001" title="See event::Send instead." alt="" coords="198,37,342,86"/>
-<area shape="rect" id="Node000002" href="$dd/d6f/classevent_1_1EventSystem.html#a95226235410ef78102e06f3a2e8ba2a1" title=" " alt="" coords="5,5,150,54"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,50,149,44,150,39,183,45"/>
-<area shape="rect" id="Node000003" href="$dc/dd0/namespaceevent.html#a923c12a601db6e4cc6b7bb74e6470b76" title=" " alt="" coords="30,78,125,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,78,126,87,125,82,182,73"/>
+<area shape="rect" id="Node000001" title="See event::Send instead." alt="" coords="893,247,1037,295"/>
+<area shape="rect" id="Node000002" href="$dd/d6f/classevent_1_1EventSystem.html#a95226235410ef78102e06f3a2e8ba2a1" title=" " alt="" coords="700,215,845,263"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="877,259,844,254,845,248,878,254"/>
+<area shape="rect" id="Node000003" href="$dc/dd0/namespaceevent.html#a923c12a601db6e4cc6b7bb74e6470b76" title=" " alt="" coords="725,287,820,316"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="878,288,821,297,820,291,877,282"/>
+<area shape="rect" id="Node000004" href="$db/db9/structevent_1_1WindowChar.html#a8546129ad0db215eef0102428aa79efc" title=" " alt="" coords="475,5,625,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="709,286,698,277,680,250,673,223,672,197,674,171,676,145,675,120,667,95,650,69,624,49,627,45,654,65,672,92,680,119,681,145,679,171,677,197,678,222,685,247,702,273,713,282"/>
+<area shape="rect" id="Node000008" href="$d0/d30/structevent_1_1WindowDrop.html#a4a0e23ac9c8173361a30177f0cdfb5d4" title=" " alt="" coords="474,79,626,127"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="709,285,698,277,685,259,678,242,674,208,670,175,663,159,650,142,625,124,628,120,654,138,668,156,675,173,679,207,683,241,690,257,702,273,712,281"/>
+<area shape="rect" id="Node000009" href="$df/d2c/structevent_1_1WindowInputDevice.html#ad128fc4435e37943a713c66ac69777c2" title=" " alt="" coords="456,152,644,201"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="709,284,699,277,683,261,674,245,666,230,651,214,633,203,635,199,654,210,670,226,679,242,687,258,702,273,712,279"/>
+<area shape="rect" id="Node000010" href="$d1/d90/structevent_1_1WindowKey.html#af8a690cb33235dd4953f31282c7723ed" title=" " alt="" coords="454,224,646,254"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="709,285,652,268,611,257,612,252,653,263,711,280"/>
+<area shape="rect" id="Node000011" href="$d2/dd1/structevent_1_1WindowMouseButton.html#a438c524f3ba130e14b2486d7612f8c47" title=" " alt="" coords="451,277,649,326"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="710,304,650,304,650,299,710,299"/>
+<area shape="rect" id="Node000012" href="$de/d75/structevent_1_1WindowMousePosition.html#a3eabec536e73d02cce6eaddb8fa82bb6" title=" " alt="" coords="448,351,652,399"/>
+<area shape="poly" id="edge15_Node000003_Node000012" title=" " alt="" coords="712,324,627,353,625,348,710,319"/>
+<area shape="rect" id="Node000013" href="$d4/d30/structevent_1_1WindowMouseScroll.html#ad09aa57f62e3d4eb244ea8d73e3e4821" title=" " alt="" coords="456,424,644,473"/>
+<area shape="poly" id="edge17_Node000003_Node000013" title=" " alt="" coords="750,330,708,372,654,413,630,426,627,421,651,409,704,368,746,326"/>
+<area shape="rect" id="Node000014" href="$df/d3f/structevent_1_1WindowResize.html#a011ef25ee728549cbce854dd04a3cf6a" title=" " alt="" coords="474,497,626,546"/>
+<area shape="poly" id="edge19_Node000003_Node000014" title=" " alt="" coords="762,332,721,408,691,450,654,486,628,502,625,498,651,482,687,447,717,405,757,330"/>
+<area shape="rect" id="Node000015" href="$da/d0b/classinput_1_1InputSystem.html#a53fdeba0382e2aafc74ccb03bcd996fb" title=" " alt="" coords="480,571,620,619"/>
+<area shape="poly" id="edge21_Node000003_Node000015" title=" " alt="" coords="768,332,755,381,732,442,699,505,678,534,654,560,622,580,619,575,651,556,674,530,695,502,727,440,749,379,763,331"/>
+<area shape="rect" id="Node000005" href="$d8/d8e/classtoast_1_1Window.html#a8346305f067cb920f298191286be2ecc" title="Creates a window with a given size." alt="" coords="234,256,400,286"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="463,60,450,69,405,116,369,169,342,219,326,257,321,255,338,217,364,166,400,112,446,65,460,56"/>
+<area shape="rect" id="Node000006" href="$d8/d8e/classtoast_1_1Window.html#ae91c14f5782c242f07fbcb5de9e16506" title=" " alt="" coords="5,230,186,259"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="218,262,186,258,187,253,219,257"/>
+<area shape="rect" id="Node000007" href="$d8/d8e/classtoast_1_1Window.html#ad58c193a91fc22a8d2ea61e878794a3e" title=" " alt="" coords="12,283,179,312"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="219,286,179,290,179,285,218,280"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="461,136,449,143,413,170,380,202,332,257,328,254,376,198,409,166,447,138,459,131"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="464,209,449,215,351,258,349,253,447,210,462,204"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="439,257,401,262,400,257,438,252"/>
+<area shape="poly" id="edge14_Node000011_Node000005" title=" " alt="" coords="435,289,400,285,401,279,436,284"/>
+<area shape="poly" id="edge16_Node000012_Node000005" title=" " alt="" coords="463,347,447,340,344,289,347,284,449,335,465,342"/>
+<area shape="poly" id="edge18_Node000013_Node000005" title=" " alt="" coords="456,419,446,413,408,383,374,348,326,288,331,285,378,344,412,379,450,409,459,414"/>
+<area shape="poly" id="edge20_Node000014_Node000005" title=" " alt="" coords="459,495,446,486,422,463,399,437,363,380,337,327,321,287,326,285,342,325,368,377,404,433,425,459,450,482,462,491"/>
 </map>

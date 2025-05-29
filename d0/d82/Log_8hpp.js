@@ -1,6 +1,7 @@
 var Log_8hpp =
 [
     [ "Log", "d0/d77/classLog.html", "d0/d77/classLog" ],
+    [ "ToastException", "d6/d05/classToastException.html", "d6/d05/classToastException" ],
     [ "CLIENT_ASSERT", "d0/d82/Log_8hpp.html#a16317c93e48906c36ebe34e3fb1a400f", null ],
     [ "CLIENT_ERROR", "d0/d82/Log_8hpp.html#a181041110e2a07e4e4d19454b86827a1", null ],
     [ "CLIENT_INFO", "d0/d82/Log_8hpp.html#abdd48c67d71d141e6cecfdbcdae815ce", null ],

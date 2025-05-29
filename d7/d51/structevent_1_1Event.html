@@ -119,11 +119,11 @@ Collaboration diagram for event::Event&lt; EventType &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d54/structevent_1_1Event__coll__graph.png" border="0" usemap="#aevent_1_1Event_3_01EventType_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aevent_1_1Event_3_01EventType_01_4_coll__map" id="aevent_1_1Event_3_01EventType_01_4_coll__map">
-<area shape="rect" title="Base class for all the Events." alt="" coords="5,156,181,234"/>
-<area shape="rect" href="../../da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="46,5,140,108"/>
-<area shape="poly" title=" " alt="" coords="96,123,96,156,90,156,90,123"/>
+<area shape="rect" title="Base class for all the Events." alt="" coords="5,83,192,113"/>
+<area shape="rect" href="../../da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="46,5,151,35"/>
+<area shape="poly" title=" " alt="" coords="101,51,101,82,96,82,96,51"/>
 </map>
-</div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -169,7 +169,7 @@ struct event::Event&lt; EventType &gt;</div><p>Base class for all the Events. </
 <div class="line">   this-&gt;repeatTimes = repeatTimes;</div>
 <div class="line"> }</div>
 <div class="line">}</div>
-<div class="ttc" id="astructevent_1_1Event_html"><div class="ttname"><a href="../../d7/d51/structevent_1_1Event.html">event::Event</a></div><div class="ttdoc">Base class for all the Events.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d7d/Event_8hpp_source.html#l00030">Event.hpp:30</a></div></div>
+<div class="ttc" id="astructevent_1_1Event_html"><div class="ttname"><a href="../../d7/d51/structevent_1_1Event.html">event::Event</a></div><div class="ttdoc">Base class for all the Events.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d7d/Event_8hpp_source.html#l00025">Event.hpp:25</a></div></div>
 </div><!-- fragment --><p>While more information about how to use listeners and how to send events will be provided in their respective documentations here is a general explanation of how to use the system:</p>
 <p>On the <code><a class="el" href="../../d2/dd2/classevent_1_1Listener.html" title="Object that gets notified from events.">Listener</a></code> we want to receive the event, we subscribe to this event by using the subscribe method. This is as simple as writing </p><div class="fragment"><div class="line">m_listener.Subscribe&lt;KeyPressedEvent&gt;(<span class="stringliteral">&quot;OpenPauseMenu&quot;</span>, [&amp;](KeyPressedEvent* e)-&gt;bool { <span class="keywordflow">return</span> OpenPauseMenuFn(e); });</div>
 <div class="line"> </div>
@@ -190,7 +190,7 @@ struct event::Event&lt; EventType &gt;</div><p>Base class for all the Events. </
 <dd>
 <a class="el" href="../../dd/d6f/classevent_1_1EventSystem.html" title="Dispatches the events and controls the Event System.">event::EventSystem</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac9aeee991c0f5ca1ae5d534417f65aa0" name="ac9aeee991c0f5ca1ae5d534417f65aa0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9aeee991c0f5ca1ae5d534417f65aa0">&#9670;&#160;</a></span>Notify()</h2>
@@ -219,7 +219,7 @@ template&lt;typename EventType&gt; </div>
 
 <p>Implements <a class="el" href="../../da/ddb/structevent_1_1IEvent.html#a1166375ac94c2ea879c2a7a3a49a21bd">event::IEvent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
 
 </div>
 </div>
@@ -246,7 +246,7 @@ template&lt;typename EventType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +275,7 @@ template&lt;typename EventType&gt; </div>
 
 <p>Holds all the listeners that are subscribed to the events. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d7d/Event_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../df/d7d/Event_8hpp_source.html">Event.hpp</a>.</p>
 
 </div>
 </div>
@@ -288,7 +288,7 @@ template&lt;typename EventType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dd0/namespaceevent.html">event</a></li><li class="navelem"><a class="el" href="../../d7/d51/structevent_1_1Event.html">Event</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

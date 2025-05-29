@@ -1,0 +1,13 @@
+<map id="src/Core/include/Core/Log.h" name="src/Core/include/Core/Log.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,270,54"/>
+<area shape="rect" id="Node000002" href="$d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="144,102,242,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,55,196,86,190,86,190,55"/>
+<area shape="rect" id="Node000003" href="$d5/d8f/Export_8h.html" title=" " alt="" coords="5,180,114,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,135,99,174,96,169,166,130"/>
+<area shape="rect" id="Node000004" href="$df/d69/Profiler_8h.html" title=" " alt="" coords="138,180,248,209"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,132,196,164,190,164,190,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="273,180,393,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="220,130,294,170,292,174,218,135"/>
+<area shape="rect" id="Node000005" href="$dc/dbc/Profiler_8hpp.html" title="Wrapper of the Tracy Profiler." alt="" coords="134,257,252,287"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="196,210,196,242,190,242,190,210"/>
+</map>

@@ -104,37 +104,40 @@ $(function(){initNavTree('dd/d43/Linux_8inl_source.html','../../'); initResizabl
 <div class="contents">
 <a href="../../dd/d43/Linux_8inl.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d48/Engine_8hpp.html">Toast/Engine.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">   10</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>  <span class="comment">// Sets the .so path to ./modules</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  setenv(<span class="stringliteral">&quot;LD_LIBRARY_PATH&quot;</span>, <span class="stringliteral">&quot;./modules&quot;</span>, 1);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <a class="code hl_class" href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a>* app = <a class="code hl_function" href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a>();    <span class="comment">// NOLINT(clang-diagnostic-error)</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  <span class="keywordflow">if</span> (!app) { <span class="keywordflow">return</span> -1; }</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  app-&gt;<a class="code hl_function" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5">Run</a>(argc, argv);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">delete</span> app;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef WIN32</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="../../d1/dd4/Engine_8h.html">Toast/Engine.h</a>&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="}">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">    9</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>, <span class="keywordtype">char</span>** <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>) {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  <span class="comment">// Sets the .so path to ./modules</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>  setenv(<span class="stringliteral">&quot;LD_LIBRARY_PATH&quot;</span>, <span class="stringliteral">&quot;./modules&quot;</span>, 1);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <a class="code hl_class" href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a>* <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a> = <a class="code hl_function" href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a>();    <span class="comment">// NOLINT(clang-diagnostic-error)</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>) { <span class="keywordflow">return</span> -1; }</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>-&gt;Run(<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
 </div>
-<div class="ttc" id="aEngine_8hpp_html"><div class="ttname"><a href="../../d3/d48/Engine_8hpp.html">Engine.hpp</a></div><div class="ttdoc">Main engine class.</div></div>
-<div class="ttc" id="aLinux_8inl_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="#l00010">Linux.inl:10</a></div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00015">Engine.hpp:15</a></div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html_ae7f81d670cc27f32ce9fcc4bd3bab1d5"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5">toast::Engine::Run</a></div><div class="ttdeci">void Run(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d0c/Engine_8cpp_source.html#l00007">Engine.cpp:7</a></div></div>
-<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d3c/Application_8hpp_source.html#l00013">Application.hpp:13</a></div></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aEngine_8h_html"><div class="ttname"><a href="../../d1/dd4/Engine_8h.html">Engine.h</a></div></div>
+<div class="ttc" id="aLinux_8inl_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="#l00009">Linux.inl:9</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ab4fe483b0a444ae5e37d2edb49d79c7f"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a></div><div class="ttdeci">char ** argv</div><div class="ttdef"><b>Definition</b> <a href="../../d4/de2/Windows_8inl_source.html#l00048">Windows.inl:48</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ab97201b6347c8a5437cbc6ccd9cc5ea1"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a></div><div class="ttdeci">toast::Engine * app</div><div class="ttdef"><b>Definition</b> <a href="../../d4/de2/Windows_8inl_source.html#l00039">Windows.inl:39</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ad1447518f4372828b8435ae82e48499e"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> <a href="../../d4/de2/Windows_8inl_source.html#l00042">Windows.inl:42</a></div></div>
+<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00013">Engine.hpp:13</a></div></div>
+<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d5e/App_8hpp_source.html#l00014">App.hpp:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_de9f5e5c693426af4ac695525c65b1e0.html">Toast</a></li><li class="navelem"><a class="el" href="../../dir_72738c7bc9f454617a4d9a6255a37395.html">Platform</a></li><li class="navelem"><a class="el" href="../../dd/d43/Linux_8inl.html">Linux.inl</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

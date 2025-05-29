@@ -1,0 +1,7 @@
+<map id="input::InputSystem::GetCurrentLayout" name="input::InputSystem::GetCurrentLayout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="194,28,336,76"/>
+<area shape="rect" id="Node000002" href="$dc/d73/namespaceinput.html#a84406087ed7ff4bf2bc872b6828dd3de" title=" " alt="" coords="12,5,139,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,40,139,33,140,28,179,35"/>
+<area shape="rect" id="Node000003" href="$da/d0b/classinput_1_1InputSystem.html#a866227ebdc9fc6566750be76166797ae" title=" " alt="" coords="5,58,146,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,69,146,74,146,69,178,64"/>
+</map>

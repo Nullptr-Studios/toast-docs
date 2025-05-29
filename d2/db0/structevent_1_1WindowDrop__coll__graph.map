@@ -1,0 +1,10 @@
+<map id="event::WindowDrop" name="event::WindowDrop">
+<area shape="rect" id="Node000001" title="Event sent when user drag and drops files to the window." alt="" coords="34,260,178,290"/>
+<area shape="rect" id="Node000002" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="5,181,207,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,226,109,260,103,260,103,226"/>
+<area shape="rect" id="Node000003" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="48,5,153,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,51,108,181,103,181,99,51"/>
+<area shape="rect" id="Node000004" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="122,84,308,114"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="136,42,196,82,193,86,133,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="190,126,124,183,120,179,186,122"/>
+</map>

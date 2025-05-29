@@ -1,0 +1,32 @@
+<map id="src/HID/WindowEvents.hpp" name="src/HID/WindowEvents.hpp">
+<area shape="rect" id="Node000001" title="Stores all the different events a function has." alt="" coords="285,5,476,35"/>
+<area shape="rect" id="Node000002" href="$d6/d8d/Event_8h.html" title=" " alt="" coords="329,83,432,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="383,36,383,67,378,67,378,36"/>
+<area shape="rect" id="Node000003" href="$df/d7d/Event_8hpp.html" title="Base Event class." alt="" coords="193,161,344,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="361,115,304,154,301,149,358,111"/>
+<area shape="rect" id="Node000004" href="$d8/d9e/Listener_8hpp.html" title="Code that contains the listener of the Event System." alt="" coords="220,238,317,268"/>
+<area shape="poly" id="edge16_Node000002_Node000004" title=" " alt="" coords="382,113,376,150,368,172,357,192,337,214,312,232,309,228,333,210,353,189,363,170,370,149,377,112"/>
+<area shape="rect" id="Node000014" href="$de/d2f/EventSystem_8hpp.html" title="Object responsible for handling the queue of events." alt="" coords="358,238,553,268"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="390,112,444,223,439,226,385,114"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,191,271,223,266,223,266,191"/>
+<area shape="rect" id="Node000005" href="$d5/d8f/Export_8h.html" title=" " alt="" coords="368,471,476,501"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="319,264,362,282,382,297,399,314,417,349,426,387,429,424,428,456,423,456,423,425,421,388,412,351,394,318,378,301,359,287,317,268"/>
+<area shape="rect" id="Node000006" href="$d1/d45/Log_8h.html" title=" " alt="" coords="10,316,100,346"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="229,271,110,313,108,308,227,266"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="124,316,168,346"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="247,271,182,310,179,306,244,266"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="192,316,278,346"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="265,270,250,303,245,301,260,268"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="302,316,384,346"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="284,267,320,303,317,307,281,270"/>
+<area shape="rect" id="Node000007" href="$d0/d82/Log_8hpp.html" title="The logger class is in charge of displaying messages to the console." alt="" coords="85,394,183,423"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="72,344,110,381,106,385,68,348"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="184,420,354,464,352,469,183,425"/>
+<area shape="rect" id="Node000008" href="$df/d69/Profiler_8h.html" title=" " alt="" coords="9,471,120,501"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="123,426,90,462,86,458,119,422"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="144,471,265,501"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="149,422,183,458,179,462,145,426"/>
+<area shape="rect" id="Node000009" href="$dc/dbc/Profiler_8hpp.html" title="Wrapper of the Tracy Profiler." alt="" coords="5,549,124,579"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="67,502,67,533,62,533,62,502"/>
+<area shape="poly" id="edge15_Node000014_Node000005" title=" " alt="" coords="458,269,454,336,443,424,434,457,429,456,438,423,449,335,452,269"/>
+</map>

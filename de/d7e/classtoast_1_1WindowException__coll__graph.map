@@ -1,0 +1,5 @@
+<map id="toast::WindowException" name="toast::WindowException">
+<area shape="rect" id="Node000001" title="Exception to handle all GLFW error callbacks." alt="" coords="5,83,175,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="36,5,144,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,51,93,82,87,82,87,51"/>
+</map>

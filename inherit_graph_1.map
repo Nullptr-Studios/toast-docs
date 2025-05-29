@@ -1,5 +1,41 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="5,5,110,35"/>
-<area shape="rect" id="Node000001" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="158,5,344,35"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="125,18,157,18,157,23,125,23"/>
+<area shape="rect" id="Node000000" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="5,269,110,299"/>
+<area shape="rect" id="Node000001" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="163,5,362,35"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="60,253,70,207,87,151,115,94,134,68,156,45,173,33,176,38,159,49,138,71,120,96,92,153,75,208,65,254"/>
+<area shape="rect" id="Node000003" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="161,59,364,88"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="64,254,76,218,95,176,122,134,156,98,175,87,178,91,159,102,126,137,100,178,81,220,69,256"/>
+<area shape="rect" id="Node000005" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="162,112,363,142"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="71,254,105,202,128,174,156,151,178,140,180,145,159,156,132,178,109,205,75,257"/>
+<area shape="rect" id="Node000007" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="166,165,359,214"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="93,259,156,223,183,212,185,217,159,228,95,263"/>
+<area shape="rect" id="Node000009" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="166,237,358,267"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="124,271,165,265,166,270,125,276"/>
+<area shape="rect" id="Node000011" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="162,290,363,339"/>
+<area shape="poly" id="edge11_Node000000_Node000011" title=" " alt="" coords="125,292,162,297,161,302,124,297"/>
+<area shape="rect" id="Node000013" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="162,364,363,412"/>
+<area shape="poly" id="edge13_Node000000_Node000013" title=" " alt="" coords="92,306,159,348,187,361,184,366,156,353,89,311"/>
+<area shape="rect" id="Node000015" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="162,437,363,486"/>
+<area shape="poly" id="edge15_Node000000_Node000015" title=" " alt="" coords="75,312,109,368,132,397,159,422,179,435,177,439,156,426,128,400,104,371,70,314"/>
+<area shape="rect" id="Node000017" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="158,509,367,539"/>
+<area shape="poly" id="edge17_Node000000_Node000017" title=" " alt="" coords="67,314,78,355,96,404,122,454,140,476,159,495,177,507,174,511,156,500,136,480,118,457,91,406,72,357,62,315"/>
+<area shape="rect" id="Node000019" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="169,563,356,592"/>
+<area shape="poly" id="edge19_Node000000_Node000019" title=" " alt="" coords="64,314,71,365,88,429,116,494,136,523,159,549,176,560,173,564,156,553,132,526,112,496,83,431,66,367,59,315"/>
+<area shape="rect" id="Node000002" href="$db/db9/structevent_1_1WindowChar.html" title="Event sent when user presses a character." alt="" coords="446,5,588,35"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="378,18,446,18,446,23,378,23"/>
+<area shape="rect" id="Node000004" href="$db/d11/structevent_1_1WindowClose.html" title="Send this event to tell the engine to close the window." alt="" coords="444,59,590,88"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="379,71,444,71,444,76,379,76"/>
+<area shape="rect" id="Node000006" href="$d0/d30/structevent_1_1WindowDrop.html" title="Event sent when user drag and drops files to the window." alt="" coords="445,112,589,142"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="378,124,444,124,444,130,378,130"/>
+<area shape="rect" id="Node000008" href="$df/d2c/structevent_1_1WindowInputDevice.html" title="Event sent when user connects or disconnects a controller." alt="" coords="423,175,611,204"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="375,187,423,187,423,192,375,192"/>
+<area shape="rect" id="Node000010" href="$d1/d90/structevent_1_1WindowKey.html" title="Event sent when user presses a key." alt="" coords="450,237,585,267"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="374,250,449,250,449,255,374,255"/>
+<area shape="rect" id="Node000012" href="$d2/dd1/structevent_1_1WindowMouseButton.html" title="Event sent when user clicks a button on the mouse." alt="" coords="418,300,616,330"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="379,312,418,312,418,318,379,318"/>
+<area shape="rect" id="Node000014" href="$de/d75/structevent_1_1WindowMousePosition.html" title="Event sent when user moves the mouse." alt="" coords="415,373,619,403"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="378,386,414,386,414,391,378,391"/>
+<area shape="rect" id="Node000016" href="$d4/d30/structevent_1_1WindowMouseScroll.html" title="Event sent when user uses the scroll wheel." alt="" coords="424,447,611,476"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="378,459,423,459,423,464,378,464"/>
+<area shape="rect" id="Node000018" href="$df/d3f/structevent_1_1WindowResize.html" title="Event sent when the window framebuffer is resized." alt="" coords="441,509,593,539"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="382,522,441,522,441,527,382,527"/>
 </map>

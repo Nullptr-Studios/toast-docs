@@ -1,0 +1,10 @@
+<map id="event::WindowKey" name="event::WindowKey">
+<area shape="rect" id="Node000001" title="Event sent when user presses a key." alt="" coords="34,260,169,290"/>
+<area shape="rect" id="Node000002" href="$d7/d51/structevent_1_1Event.html" title=" " alt="" coords="5,181,198,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,226,104,260,99,260,99,226"/>
+<area shape="rect" id="Node000003" href="$da/ddb/structevent_1_1IEvent.html" title="Core components of the event struct." alt="" coords="44,5,148,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,51,104,181,98,181,94,51"/>
+<area shape="rect" id="Node000004" href="$d7/d51/structevent_1_1Event.html" title="Base class for all the Events." alt="" coords="118,84,304,114"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="131,42,191,82,188,86,128,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="185,126,119,183,116,179,182,122"/>
+</map>

@@ -105,71 +105,86 @@ $(function(){initNavTree('d4/de2/Windows_8inl_source.html','../../'); initResiza
 <a href="../../d4/de2/Windows_8inl.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d48/Engine_8hpp.html">Toast/Engine.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="../../d1/dd4/Engine_8h.html">Toast/Engine.h</a>&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;shellapi.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// clang-format off</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;windows.h&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// This changes windows Long Pointer to Wide String to a char** so it can be crossplatform 0x</span></div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">   12</a></span><span class="keywordtype">char</span>** <a class="code hl_function" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a>(LPWSTR* win_argv, <span class="keywordtype">int</span> argc) {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keywordtype">char</span>** argv = <span class="keyword">new</span> <span class="keywordtype">char</span>*[argc];</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; argc; i++) {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">int</span> size_needed = WideCharToMultiByte(CP_UTF8, 0, win_argv[i], -1, NULL, 0, NULL, NULL);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    argv[i] = <span class="keyword">new</span> <span class="keywordtype">char</span>[size_needed];</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    WideCharToMultiByte(CP_UTF8, 0, win_argv[i], -1, argv[i], size_needed, NULL, NULL);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  }</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keywordflow">return</span> argv;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;shellapi.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// clang-format on</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// This changes windows Long Pointer to Wide String to a char** so it can be crossplatform 0x</span></div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="}">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">   14</a></span><span class="keywordtype">char</span>** <a class="code hl_function" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a>(LPWSTR* <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a>, <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>) {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  <span class="keywordtype">char</span>** <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a> = <span class="keyword">new</span> <span class="keywordtype">char</span>*[<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>];</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>; i++) {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">int</span> size_needed = WideCharToMultiByte(CP_UTF8, 0, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a>[i], -1, NULL, 0, NULL, NULL);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>[i] = <span class="keyword">new</span> <span class="keywordtype">char</span>[size_needed];</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    WideCharToMultiByte(CP_UTF8, 0, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a>[i], -1, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>[i], size_needed, NULL, NULL);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
 </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943">   22</a></span><span class="keywordtype">int</span> WINAPI <a class="code hl_function" href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943">WinMain</a>(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, <span class="keywordtype">int</span> nCmdShow) {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="comment">// Sets the .dll path to ./modules</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keywordflow">if</span> (std::getenv(<span class="stringliteral">&quot;PATH&quot;</span>)) {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    std::string newPath = std::string(<span class="stringliteral">&quot;./modules&quot;</span>) + <span class="stringliteral">&quot;;&quot;</span> + std::getenv(<span class="stringliteral">&quot;PATH&quot;</span>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    _putenv_s(<span class="stringliteral">&quot;PATH&quot;</span>, newPath.c_str());</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    _putenv_s(<span class="stringliteral">&quot;PATH&quot;</span>, <span class="stringliteral">&quot;./modules&quot;</span>);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  }</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <a class="code hl_class" href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a>* app = <a class="code hl_function" href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a>();    <span class="comment">// NOLINT(clang-diagnostic-error)</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordflow">if</span> (!app) { <span class="keywordflow">return</span> -1; }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> argc;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  LPWSTR* win_argv = CommandLineToArgvW(GetCommandLineW(), &amp;argc);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordflow">if</span> (win_argv == NULL) {</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MessageBoxW(NULL, L<span class="stringliteral">&quot;Failed to parse command line&quot;</span>, L<span class="stringliteral">&quot;Error&quot;</span>, MB_OK | MB_ICONERROR);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  }</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">char</span>** argv = <a class="code hl_function" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a>(win_argv, argc);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// This is the main entrypoint for the application</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">// Different compilers have different ways of defining the main function</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#if defined(_MSC_VER)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">int</span> WINAPI <a class="code hl_function" href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, <span class="keywordtype">int</span> nCmdShow) {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#elif defined(__GNUC__) || defined(__clang__)</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">int</span> WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, <span class="keywordtype">int</span> nCmdShow) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="comment">// Sets the .dll path to ./modules</span></div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#aa6001d4e17f4881c006678380895a5ce">   32</a></span>  <span class="keywordflow">if</span> (std::getenv(<span class="stringliteral">&quot;PATH&quot;</span>)) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    std::string newPath = std::string(<span class="stringliteral">&quot;./modules&quot;</span>) + <span class="stringliteral">&quot;;&quot;</span> + std::getenv(<span class="stringliteral">&quot;PATH&quot;</span>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    _putenv_s(<span class="stringliteral">&quot;PATH&quot;</span>, newPath.c_str());</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a0544c3fe466e421738dae463968b70ba">   35</a></span>  } <span class="keywordflow">else</span> {</div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    _putenv_s(<span class="stringliteral">&quot;PATH&quot;</span>, <span class="stringliteral">&quot;./modules&quot;</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  }</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">   39</a></span>  <a class="code hl_class" href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a>* <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a> = <a class="code hl_function" href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a>();    <span class="comment">// NOLINT(clang-diagnostic-error)</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#ab65fe237789e2109a01bfde8c5e6279a">   40</a></span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>) { <span class="keywordflow">return</span> -1; }</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  app-&gt;<a class="code hl_function" href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5">Run</a>(argc, argv);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keyword">delete</span> app;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="comment">// Free the memory allocated for argv</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; argc; i++) {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">delete</span>[] argv[i];</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keyword">delete</span>[] argv;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">   42</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">   43</a></span>  LPWSTR* <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a> = CommandLineToArgvW(GetCommandLineW(), &amp;<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>);</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a4d1f17dce6c9679d283a6fd0c37df9c3">   44</a></span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a> == NULL) {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    MessageBoxW(NULL, L<span class="stringliteral">&quot;Failed to parse command line&quot;</span>, L<span class="stringliteral">&quot;Error&quot;</span>, MB_OK | MB_ICONERROR);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  }</div>
 </div>
-<div class="ttc" id="aEngine_8hpp_html"><div class="ttname"><a href="../../d3/d48/Engine_8hpp.html">Engine.hpp</a></div><div class="ttdoc">Main engine class.</div></div>
-<div class="ttc" id="aWindows_8inl_html_a661c2abc03926acfaeb93b4ae7db4943"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#a661c2abc03926acfaeb93b4ae7db4943">WinMain</a></div><div class="ttdeci">int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)</div><div class="ttdef"><b>Definition</b> <a href="#l00022">Windows.inl:22</a></div></div>
-<div class="ttc" id="aWindows_8inl_html_af3a8b0e59642494ffdedcb8dcfa8a741"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a></div><div class="ttdeci">char ** ConvertLPWSTRToChar(LPWSTR *win_argv, int argc)</div><div class="ttdef"><b>Definition</b> <a href="#l00012">Windows.inl:12</a></div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00015">Engine.hpp:15</a></div></div>
-<div class="ttc" id="aclasstoast_1_1Engine_html_ae7f81d670cc27f32ce9fcc4bd3bab1d5"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html#ae7f81d670cc27f32ce9fcc4bd3bab1d5">toast::Engine::Run</a></div><div class="ttdeci">void Run(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d0c/Engine_8cpp_source.html#l00007">Engine.cpp:7</a></div></div>
-<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d3c/Application_8hpp_source.html#l00013">Application.hpp:13</a></div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">   48</a></span>  <span class="keywordtype">char</span>** <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a> = <a class="code hl_function" href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a>(<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a>, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a3f4302112b84836b9e105ec876c10663">   50</a></span>  <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>-&gt;Run(<a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>, <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="comment">// Free the memory allocated for argv</span></div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a14a29423c457f139c3d29cdc483a7ed5">   55</a></span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a>; i++) {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>[i];</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  }</div>
+</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d4/de2/Windows_8inl.html#a9717e7bbecb906637e86cef6da3d83c2">   60</a></span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
+<div class="ttc" id="aEngine_8h_html"><div class="ttname"><a href="../../d1/dd4/Engine_8h.html">Engine.h</a></div></div>
+<div class="ttc" id="aLinux_8inl_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dd/d43/Linux_8inl.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d43/Linux_8inl_source.html#l00009">Linux.inl:9</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_a4d0d782dd433860da4feb0244d125bec"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#a4d0d782dd433860da4feb0244d125bec">win_argv</a></div><div class="ttdeci">LPWSTR * win_argv</div><div class="ttdef"><b>Definition</b> <a href="#l00043">Windows.inl:43</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ab4fe483b0a444ae5e37d2edb49d79c7f"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ab4fe483b0a444ae5e37d2edb49d79c7f">argv</a></div><div class="ttdeci">char ** argv</div><div class="ttdef"><b>Definition</b> <a href="#l00048">Windows.inl:48</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ab97201b6347c8a5437cbc6ccd9cc5ea1"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ab97201b6347c8a5437cbc6ccd9cc5ea1">app</a></div><div class="ttdeci">toast::Engine * app</div><div class="ttdef"><b>Definition</b> <a href="#l00039">Windows.inl:39</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_ad1447518f4372828b8435ae82e48499e"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#ad1447518f4372828b8435ae82e48499e">argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> <a href="#l00042">Windows.inl:42</a></div></div>
+<div class="ttc" id="aWindows_8inl_html_af3a8b0e59642494ffdedcb8dcfa8a741"><div class="ttname"><a href="../../d4/de2/Windows_8inl.html#af3a8b0e59642494ffdedcb8dcfa8a741">ConvertLPWSTRToChar</a></div><div class="ttdeci">char ** ConvertLPWSTRToChar(LPWSTR *win_argv, int argc)</div><div class="ttdef"><b>Definition</b> <a href="#l00014">Windows.inl:14</a></div></div>
+<div class="ttc" id="aclasstoast_1_1Engine_html"><div class="ttname"><a href="../../d9/d4f/classtoast_1_1Engine.html">toast::Engine</a></div><div class="ttdoc">Main Bloom engine class.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d48/Engine_8hpp_source.html#l00013">Engine.hpp:13</a></div></div>
+<div class="ttc" id="anamespacetoast_html_a8f8b2027cb3aa2c714931804912b3b3f"><div class="ttname"><a href="../../d7/d01/namespacetoast.html#a8f8b2027cb3aa2c714931804912b3b3f">toast::CreateApplication</a></div><div class="ttdeci">Engine * CreateApplication()</div><div class="ttdoc">Creates the application.</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d5e/App_8hpp_source.html#l00014">App.hpp:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_de9f5e5c693426af4ac695525c65b1e0.html">Toast</a></li><li class="navelem"><a class="el" href="../../dir_72738c7bc9f454617a4d9a6255a37395.html">Platform</a></li><li class="navelem"><a class="el" href="../../d4/de2/Windows_8inl.html">Windows.inl</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu May 29 2025 13:16:17 for Toast Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>
